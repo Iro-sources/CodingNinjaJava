@@ -3,9 +3,7 @@ public class Planet {
 	private int radius;
 	private double mass;
 	
-	
-	
-	
+
 	//Constructor
 	Planet(String name, int radius, double mass){
 	this.name = name;

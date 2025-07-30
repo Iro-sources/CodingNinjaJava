@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.util.Scanner;
 
 public class DataTypes {
     public static void main(String[]args) {
@@ -74,6 +75,29 @@ public class DataTypes {
             lineCount = 0;
         }
         }
+
+        //user input for sum of two numbers
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter number 1: ");
+        int x = sc.nextInt();
+
+        System.out.println("Enter number 2: ");
+        int y = sc.nextInt();
+
+        int sum = x + y;
+        System.out.println("The sum of " + x + " and " +y + " is " + sum);
+        sc.close();
+
+        //swap
+        int a = 3;
+        int b = 2;
+        System.out.println("Before swap: a = " + a + ", b = " + b);
+
+        int temp = a;
+        a = b ;
+        b = temp;
+
+        System.out.println("After swap: a = " + a + ", b = " + b);
 
     }
 }

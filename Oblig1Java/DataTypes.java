@@ -8,6 +8,7 @@ public class DataTypes {
         int num2 = 3;
 
         int num3 = num1 * num2;
+        System.out.println(num3);
 
         //When printing a single line use
         System.out.println("one\ntwo\nthree");
@@ -17,7 +18,7 @@ public class DataTypes {
 
         //prints and then moves the cursor to the next line.
         System.out.println("---------");
-        System.out.println(num3);
+
 
        //Moon weight
        double gravity = 0.17;
@@ -35,6 +36,7 @@ public class DataTypes {
            System.out.println(inches + " inches " + meters +" meters");
 
            counter ++;
+           //printing an empty line after every 12 line
            if (counter == 12){
                System.out.println();
                counter = 0;
@@ -62,7 +64,7 @@ public class DataTypes {
         int number;
         int lineCount = 0;
         for (number = 1; number <= 50; number++){
-            if (num1 % 2 == 0) {
+            if (number % 2 == 0) {
                 System.out.println(number + " is even");
             }
             else{
@@ -99,5 +101,13 @@ public class DataTypes {
 
         System.out.println("After swap: a = " + a + ", b = " + b);
 
+        String name;
+        int c ;
+
+        name = "ali";
+        c = Integer.parseInt(name);
+
+        // In Python: int("123") → 123
+        //In C#: int.Parse("123")
     }
 }

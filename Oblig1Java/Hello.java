@@ -33,7 +33,7 @@ public class Hello {
 //        int test_int = Integer.parseInt(test_str);
 //        System.out.println(test_int);
 
-        //FizzBuzz
+        //FiizBuzz
         List<String> results = new ArrayList<>();
         for ( int i = 1; i<= 15; i++) {
             if (i % 3 ==0 && i % 5 == 0)
